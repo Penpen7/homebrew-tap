@@ -7,10 +7,10 @@ class Workq < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/Penpen7/workq/releases/download/v0.0.1/workq-aarch64-apple-darwin.tar.gz"
-      sha256 "65eb536433f36e74baf282b85a15603fbe130c9a054133ab03aae9db4c8ac80f"
+      sha256 "87d2f9415efb09f3f14b391be90c5698bc2501907021bb3e112d83ddc829941f"
     else
       url "https://github.com/Penpen7/workq/releases/download/v0.0.1/workq-x86_64-apple-darwin.tar.gz"
-      sha256 "68058a16fa0cdbb2f97198fa2e4fb7d13c5634c750f90a0df6bfe84e6f1e59c4"
+      sha256 "185c0bd21eb3178f53eb798e3d0089b25211afcc496ce2c56f76828c7b13aa04"
     end
   else
     if Hardware::CPU.arm?
@@ -18,7 +18,7 @@ class Workq < Formula
       sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
     else
       url "https://github.com/Penpen7/workq/releases/download/v0.0.1/workq-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "02751ba3d4f281c111ce35ca7380a04da2df191a8d1a2224212b1ef60032815a"
+      sha256 "11df0c301a8bdb724e59111772a738162079529e4baadd375e7e3a72916745e9"
     end
   end
 
